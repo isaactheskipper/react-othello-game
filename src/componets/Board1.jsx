@@ -1,5 +1,5 @@
 
-import { createDisc } from './DiscHelper'; // Import the helper function
+import { createDisc } from '/home/isaac/vite-othello-game-react/src/componets/DiskHelper.jsx'; // Import the helper function
 
 const Board1 = () => {
     const whitePositions = [27, 36];
