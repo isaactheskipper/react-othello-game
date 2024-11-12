@@ -1,6 +1,6 @@
 
 
-import OthelloGame from '/home/isaac/vite-othello-game-react/src/componets/content.jsx';
+import OthelloGame from './componets/content.jsx';
 
 const App = () => {
     return (

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { createDisc } from '/home/isaac/vite-othello-game-react/src/componets/DiskHelper.jsx';
+import { createDisc } from './DiskHelper.jsx';
 
 const Board3 = () => {
     const initialWhitePositions = [36, 27]; // White discs initially at 36 and 27
