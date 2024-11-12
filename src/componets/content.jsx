@@ -1,7 +1,7 @@
 import './othello.css'
 import Board1 from './Board1.jsx';
 import Board2 from './Board2.jsx';
-import Board3 from '/home/isaac/vite-othello-game-react/src/componets/Board3.jsx';
+import Board3 from './Board3.jsx';
 import Board4 from './Board4.jsx';
 import Board5 from './Board5.jsx';
 const OthelloGame = () => {

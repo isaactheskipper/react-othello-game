@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { createDisc } from '/home/isaac/vite-othello-game-react/src/componets/DiskHelper.jsx';
+import { createDisc } from './DiskHelper.jsx';
 
 const Board4 = () => {
     const whitePositions = [36];
