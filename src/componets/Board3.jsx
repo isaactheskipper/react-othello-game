@@ -24,8 +24,7 @@ const Board3 = () => {
                         height: '100px',
                         width: '100px',
                         position: 'relative',
-                        color:'black',
-                        opacity:'60%'
+                        color:'black'
                     }}
                 >
                     {isWhite && createDisc('white')}
