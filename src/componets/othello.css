@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: black;
 }
 
 
@@ -29,6 +30,7 @@ body {
     width: 60%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-left:300px ;
 }
 
 .general {
