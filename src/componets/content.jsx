@@ -165,7 +165,7 @@ const OthelloGame = () => {
                 <p>
                   i)<u>Corners and stable discs</u> - According to the rules of Othello, once a disc is placed in a corner, that disc can never be flipped back (it is stable). Because of that, corners are the most valuable squares on the board. Once you have a corner, you can often build more adjacent stable discs around it.
                 </p>
-                <img src="/basic_strategy_othello_1.jpg" alt="Basic strategy 1" />
+                <img src={"static/images/basic_strategy_othello_1.jpg"} alt="Basic strategy 1" />
                 <p>
                   ii)<u>Danger squares</u> - Within the Othello board there are squares that are safer than others. When starting a game, it is recommended to play within the 4x4 central area when possible. It is often not recommended to move on the squares next to corners (marked by black translucent discs). Moving in these squares could give the opponent access to the adjacent corner.
                 </p>
