@@ -17,7 +17,8 @@ const OthelloGame = () => {
           </div>
           <div className="w3-panel w3-leftbar w3-sand">
             <div className="othello-img">
-              <img src="othello.jpg" alt="othello.jpg" />
+              <img src={"static/images/othello.jpg"} alt="othello.jpg" />
+
             </div>
             <div className="about-othello">
               <p>
@@ -43,7 +44,7 @@ const OthelloGame = () => {
                   <b>Number of Players: 2</b>
                 </div>
                 <img
-                  src="players.jpeg"
+                  src={"static/images/players.jpg"}
                   style={{ marginTop: '30px' }}
                   alt="2 players image"
                 />
@@ -55,7 +56,7 @@ const OthelloGame = () => {
                   <b>Materials Needed: 8 x 8 square Othello board, 64 double-sided disks (black on one side, white on the other)</b>
                 </div>
                 <img
-                  src="boardsetup.jpg"
+                  src={"static/images/boardsetup.jpg"}
                   alt="Othello board setup"
                   style={{ marginTop: '30px' }}
                 />
@@ -67,7 +68,7 @@ const OthelloGame = () => {
                   <b>Objective: Have the most disks of your color on the board at the end of the game</b>
                 </div>
                 <img
-                  src="winning.jpeg"
+                  src={"static/images/winning.jpg"}
                   style={{ marginTop: '30px' }}
                   alt="Winning image"
                 />
@@ -169,11 +170,11 @@ const OthelloGame = () => {
                 <p>
                   ii)<u>Danger squares</u> - Within the Othello board there are squares that are safer than others. When starting a game, it is recommended to play within the 4x4 central area when possible. It is often not recommended to move on the squares next to corners (marked by black translucent discs). Moving in these squares could give the opponent access to the adjacent corner.
                 </p>
-                <img src="basic_strategy_othello_2.png" alt="Basic strategy 2" />
+                <img src={"static/images/basic_strategy_othello_2.jpg"} alt="Basic strategy 2" />
                 <p>
                   iii)<u>Mobility</u> - A common beginner mistake is to try to get as many discs as possible from the beginning. This is not a good strategy in Othello. A better strategy is to focus on limiting your opponents options, while having many possible moves yourself. This is usually easier to achieve by having fewer discs.
                 </p>
-                <img src="basic_strategy_othello_3.png" alt="Basic strategy 3" />
+                <img src={"static/images/basic_strategy_othello_3.jpg"} alt="Basic strategy 3" />
               </div>
               <p>
                 <a href="https://youtu.be/Ol3Id7xYsY4" target="_blank" rel="noopener noreferrer">
